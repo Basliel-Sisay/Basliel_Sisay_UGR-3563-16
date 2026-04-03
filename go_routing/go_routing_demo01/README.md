@@ -18,4 +18,10 @@ samples, guidance on mobile development, and a full API reference.
 
 <h1>Widget Tree</h1>
 
-https://i.ibb.co/SDRczC7Q/Screenshot-2026-04-03-201206.png
+[widget Tree](https://i.ibb.co/SDRczC7Q/Screenshot-2026-04-03-201206.png)
+
+<h1>Outputs</h1>
+
+[Home](https://i.ibb.co/1Jb89KSs/Screenshot-2026-04-03-201101.png)
+
+[Details](https://i.ibb.co/mr4XMT3Z/Screenshot-2026-04-03-201115.png)
