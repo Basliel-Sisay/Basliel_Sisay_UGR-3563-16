@@ -32,9 +32,24 @@ class ProfileScreen extends StatelessWidget{
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                const CircleAvatar(
+                CircleAvatar(
                   radius: 60,
-                  backgroundImage: AssetImage('assets/images/profile.png'),
+                  backgroundColor: Colors.grey.shade200,
+                  child: ClipOval(
+                    child: Image.asset(
+                      'assets/images/profile.png',
+                      width: 120,
+                      height: 120,
+                      fit: BoxFit.cover,
+                      errorBuilder: (context, error, stackTrace) {
+                        return const Icon(
+                          Icons.person,
+                          size: 64,
+                          color: Colors.grey,
+                        );
+                      },
+                    ),
+                  ),
                 ),
                 const SizedBox(height: 12),
                 const Text(
